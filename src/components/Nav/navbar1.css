@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap");
+#Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 200;
+}
+.nav-name {
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border: 2px dashed var(--color-black);
+  padding: 3px;
+  border-radius: 5px;
+  background: var(--color-white);
+  box-shadow: 6px 5px 26px -1px rgba(0, 0, 0, 0.301);
+}
