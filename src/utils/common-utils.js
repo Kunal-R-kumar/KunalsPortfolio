@@ -1,4 +1,4 @@
-import porfolioProject from "../assets/projectsImg/portfolioProject.png";
+import porfolioProject1 from "../assets/projectsImg/portfolioProject1.png";
 
 const userImg =
   "https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes-thumbnail.png";
@@ -115,7 +115,7 @@ export const techstackOtherData = [
 export const projectsList = [
   {
     id: 1,
-    image: porfolioProject,
+    image: porfolioProject1,
     title: "My Personal Portfolio Website To Showcase My Expertize",
     github: "https://github.com/Sameerkhan9412/Personal-Portfolio",
     demo: "https://portfoliobysameer.vercel.app/",
