@@ -117,7 +117,7 @@ export const projectsList = [
     id: 1,
     image: porfolioProject1,
     title: "My Personal Portfolio Website To Showcase My Expertize",
-    github: "https://github.com/Sameerkhan9412/Personal-Portfolio",
-    demo: "https://portfoliobysameer.vercel.app/",
+    github: "https://github.com/Kunal-R-kumar/KunalsPortfolio",
+    demo: "https://kkunalsportfolio.netlify.app/",
   },
 ];
