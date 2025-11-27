@@ -10,7 +10,7 @@ import Projects from "./components/Project/Projects";
 import { useContext } from "react";
 import { themeContext } from "./context";
 import AnimatedCursor from "react-animated-cursor";
-import AnimCursor from "./components/AnimCursor/AnimCursor";
+// import AnimCursor from "./components/AnimCursor/AnimCursor";
 
 function App() {
   const theme = useContext(themeContext);
