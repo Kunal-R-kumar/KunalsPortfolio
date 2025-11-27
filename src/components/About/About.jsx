@@ -44,7 +44,7 @@ const About = () => {
           >
             <span className="caps">M</span>e and
             <br />
-            MyTech Stack
+            <i>My Skillset</i>
           </h2>
           <div className="skill-subHeading">
             <p>

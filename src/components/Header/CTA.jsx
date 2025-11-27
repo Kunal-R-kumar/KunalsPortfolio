@@ -12,9 +12,9 @@ const CTA = () => {
           border: darkMode ? "2px solid var(--color-primary-variant)" : "",
         }}
         href={
-          "https://drive.google.com/file/d/1pRvdtGUP_VjvSWwD5c6h_j__NAyeUIAN/view?usp=sharing"
+          "https://drive.google.com/drive/folders/1wnhhf_FJUHLXuQX-Vpyc9FLZIrhyTC5W?usp=drive_link"
         }
-        download="SameerKhanResume"
+        download="Kunal's Resume"
         className="btn"
         target="_blank"
       >

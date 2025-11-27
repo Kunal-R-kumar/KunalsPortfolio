@@ -13,7 +13,6 @@ import "./contact.css";
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
-
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,10 +20,10 @@ const Contact = () => {
     // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
     emailjs
       .sendForm(
-        "service_8e1zsmr",
-        "template_at9onar",
+        import.meta.env.VITE_EMAILJS_SERVICE,
+        import.meta.env.VITE_EMAILJS_TEMPLATE,
         form.current,
-        "wMLbyjADhqSucxFuX"
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -93,6 +92,7 @@ const Contact = () => {
               name="name"
               id="Name"
               placeholder="Enter your name"
+              required
             />
 
             <motion.input
@@ -103,6 +103,7 @@ const Contact = () => {
               type="email"
               name="email"
               id="email"
+              required
               placeholder="Enter your email address"
             />
 
@@ -114,6 +115,7 @@ const Contact = () => {
               type="text"
               name="subject"
               id="subject"
+              required
               placeholder="Enter your subject"
             />
 
@@ -125,6 +127,7 @@ const Contact = () => {
               id="message"
               cols="30"
               rows="10"
+              required
               className="formfield formfield-textarea"
               placeholder="Enter your message"
             ></motion.textarea>
