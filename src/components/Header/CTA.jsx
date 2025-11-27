@@ -12,7 +12,7 @@ const CTA = () => {
           border: darkMode ? "2px solid var(--color-primary-variant)" : "",
         }}
         href={
-          "https://drive.google.com/file/d/1WIbOd4p1oOu5datoEZ6VpQ-P62uct-VJ/view?usp=sharing"
+          "https://drive.google.com/file/d/101U6aM6SZi30JBn_3poZkIExWuCuehMp/view?usp=drive_link"
         }
         download="Kunal's Resume"
         className="btn"
