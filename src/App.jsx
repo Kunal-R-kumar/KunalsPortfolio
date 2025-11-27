@@ -10,11 +10,13 @@ import Projects from "./components/Project/Projects";
 import { useContext } from "react";
 import { themeContext } from "./context";
 import AnimatedCursor from "react-animated-cursor";
-// import AnimCursor from "./components/AnimCursor/AnimCursor";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+
   return (
     <div
       className="App"
@@ -23,8 +25,6 @@ function App() {
         color: darkMode ? "var(--color-white)" : "",
       }}
     >
-      {/* <AnimCursor/> */}
-      {/* // color={darkMode ? "122, 122, 122" : "68,61,202"} */}
       <AnimatedCursor
         key={darkMode ? "dark" : "light"}
         innerSize={15}
@@ -33,20 +33,20 @@ function App() {
         outerAlpha={0.5}
         innerScale={0.7}
         outerScale={3}
-        clickables={[
-          "a",
-          'input[type="text"]',
-          'input[type="email"]',
-          'input[type="number"]',
-          'input[type="submit"]',
-          'input[type="image"]',
-          "label[for]",
-          "select",
-          "textarea",
-          "button",
-          ".link",
-        ]}
+        clickables={["a", "input", "button", "select", "textarea", ".link"]}
       />
+
+      {/* Toast Container */}
+      <ToastContainer
+        position="bottom-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        pauseOnHover
+        theme={darkMode ? "dark" : "light"}
+      />
+
       <Navbar1 />
       <Header />
       <Navbar2 />

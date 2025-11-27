@@ -27,6 +27,8 @@ const About = () => {
         style={{
           color: darkMode ? "var(--color-primary-variant)" : "",
           textAlign: "center",
+          marginTop: "1.2rem",
+          marginBottom: "1.2rem",
         }}
       >
         A Glimpse of Me
