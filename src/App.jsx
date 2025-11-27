@@ -24,11 +24,12 @@ function App() {
       }}
     >
       {/* <AnimCursor/> */}
+      {/* // color={darkMode ? "122, 122, 122" : "68,61,202"} */}
       <AnimatedCursor
         key={darkMode ? "dark" : "light"}
         innerSize={15}
         outerSize={20}
-        color={darkMode ? "122, 122, 122" : "68,61,202"}
+        color={darkMode ? "122, 122, 122" : "139,89,162"}
         outerAlpha={0.5}
         innerScale={0.7}
         outerScale={3}

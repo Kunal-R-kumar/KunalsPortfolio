@@ -2,8 +2,9 @@ import { React, useContext } from "react";
 import { themeContext } from "../../context";
 import { GiFleurDeLys } from "react-icons/gi";
 
-import { FiInstagram, FiLinkedin, FiGithub } from "react-icons/fi";
+import { FiInstagram, FiLinkedin } from "react-icons/fi";
 import "./footer.css";
+import { BsWhatsapp } from "react-icons/bs";
 const Footer = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -37,8 +38,8 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/kunal-kumar-rk/">
           <FiLinkedin />
         </a>
-        <a href="https://github.com/Kunal-R-kumar">
-          <FiGithub />
+        <a href="https://api.whatsapp.com/send?phone=+918708719044&text=Hi Kunal, I Want to hire you, Reply if you are interested to join our team">
+          <BsWhatsapp />
         </a>
         <a href="https://instagram.com/k.unal__">
           <FiInstagram />
