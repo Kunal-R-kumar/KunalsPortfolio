@@ -78,7 +78,7 @@ import { themeContext } from "../../context";
 import { motion } from "framer-motion";
 import "./project.css";
 import { projectsList } from "../../utils/common-utils";
-import { toast } from "react-toastify"; // 👉 Added toast import
+import { toast } from "react-toastify";
 
 const Projects = () => {
   const theme = useContext(themeContext);

@@ -85,6 +85,7 @@
   margin-top: 10px;
   justify-content: space-evenly;
   margin-bottom: 1.2rem;
+  overflow-x: auto;
 }
 .other-section-child > div {
   border: 2px solid var(--color-primary);

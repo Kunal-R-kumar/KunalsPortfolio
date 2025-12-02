@@ -114,7 +114,7 @@ b {
     scale: 0.6;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   .header {
     padding-top: 15rem;
     flex-direction: column;
@@ -123,8 +123,9 @@ b {
   }
   .header-right {
     width: 90%;
+    margin-top: 3rem;
   }
-  .header-right {
-    margin-top: 1rem;
+  #techstack.container {
+    margin-top: 11rem;
   }
 }

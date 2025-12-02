@@ -36,7 +36,7 @@ const Header = () => {
               Kunal
             </b>
           </span>
-          <span style={{ fontWeight: 900 }}>
+          <span style={{ fontWeight: 400, letterSpacing: "-1.1px" }}>
             I am a{" "}
             <b
               style={{ color: darkMode ? "var(--color-primary-variant)" : "" }}
